@@ -7,3 +7,6 @@ git reset --hard HEAD~number ##go to #number version before
 git reset --hard versionid ##go to target version
 git reflog ##show all git command you use before
 git diff HEAD -- filename ##check the difference of filename between working directory and master
+git checkout -- filename ##change filename to the last git add(commit) version
+git reset HEAD filename ##unstage changes
+git rm ##remove from master
