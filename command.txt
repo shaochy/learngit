@@ -1,4 +1,4 @@
-git status ##check working directory status
+git status ##check git status
 git add filename ##add modify to stage
 git commit -m "message" ##commit modify to master
 git log (--pretty=oneline) ##check all version
