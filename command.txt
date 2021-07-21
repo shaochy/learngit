@@ -1,0 +1,9 @@
+git status ##check working directory status
+git add filename ##add modify to stage
+git commit -m "message" ##commit modify to master
+git log (--pretty=oneline) ##check all version
+git reset --hard HEAD^ ##go to last version
+git reset --hard HEAD~number ##go to #number version before
+git reset --hard versionid ##go to target version
+git reflog ##show all git command you use before
+git diff HEAD -- filename ##check the difference of filename between working directory and master
